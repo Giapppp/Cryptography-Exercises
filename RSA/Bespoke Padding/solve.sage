@@ -3,7 +3,6 @@ import json
 from math import prod
 from gmpy2 import iroot
 from Crypto.Util.number import long_to_bytes
-from sage.all import *
 
 io = remote("socket.cryptohack.org", 13386)
 io.recvline()
